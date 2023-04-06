@@ -71,5 +71,7 @@ public class TestConfig implements CommandLineRunner{
         venda3.setPagamento(pag);
         vRepository.save(venda3);
         // pagamentoRepository.saveAll(Arrays.asList(pag));
+
+        produto1.getTotal();
     }  
 }
